@@ -1,0 +1,13 @@
+.like {
+    font-size: 2rem;
+}
+
+.glyphicon {
+    color: #ccc;
+    cursor: pointer;
+    margin-right: 1rem;
+}
+
+.glyphicon.active {
+    color: deeppink;
+}

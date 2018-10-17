@@ -1,0 +1,22 @@
+<div class="panel panel-default" (click)="onClick()">
+    <div
+      class="heading"
+      [ngClass]="{
+        'panel-heading': !isCollapsed,
+        'panel-body': isCollapsed
+      }"
+    > 
+      {{ title }} 
+      <span 
+        class="glyphicon"
+        [ngClass]="{
+          'glyphicon-menu-down': isCollapsed,
+          'glyphicon-menu-up': !isCollapsed
+        }"
+      ></span>
+    </div>
+
+    <div *ngIf="!isCollapsed" class="panel-body">
+        <ng-content></ng-content>
+    </div>
+</div>

@@ -1,0 +1,14 @@
+.panel {
+    margin-bottom: 0;
+}
+
+.heading {
+    cursor: pointer;
+    padding: 15px;
+    font-weight: bold;
+}
+
+.glyphicon {
+    float: right;
+
+}
